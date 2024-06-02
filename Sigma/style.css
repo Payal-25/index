@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+h1 {
+    text-align: center;
+    text-size-adjust: 550px;
+    /* background-color: rgb(242, 216, 216); */
+}
+
+h2 {
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+a {
+    width: justify;
+}
+
+body {
+    background-color: antiquewhite;
+    background: image 800px;
+    /* text-align:; */
+    text-size-adjust: 700px;
+    ;
+    background-size: cover;
+    background-position-x: center;
+    text-shadow: 10px;
+    position: right;
+
+
+    .image-container {
+        width: 100%;
+        position: relative; /* To make it a reference for positioning the text */
+        display: inline-block; /* Keeps the image and text on the same line */
+    }
+    
+    /* Style the image */
+    .image-container img {
+        max-width: 100%; /* Ensures the image is responsive */
+    }
+    
+    /* Style the text overlay */
+    .text-overlay {
+        position: absolute;
+        top:15%; /* Adjust as needed to position the text vertically */
+        left:13%; /* Adjust as needed to position the text horizontally */
+        transform: translate(-50%, -50%); /* Center the text within the container */
+        /*background:rgb(248, 250, 250); /*Background color with transparency */
+        color: rgb(36, 4, 67); /* Text color */
+        padding: 15px; /* Add some padding for readability */
+        font-size: 60px; /* Adjust the font size as needed */
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%; /* Adjust this value to control the distance of the arrow from the text */
+        left: 60%; /* Center the arrow horizontally */
+        margin-left: 5px;
+        border: solid;
+        border-width: 15px 15px 0; /* Control the size and shape of the arrow */
+        border-color: rgba(138, 33, 33, 0.5) transparent transparent; /* Match the background color and text overlay background */
+        transform: translateX(-50%); /* Center the arrow horizontally */
+    }
+
+}
+
+form {
+    margin: 10px;
+    padding: 15px;
+    color: rgb(36, 5, 36);
+    background-color: rgb(232, 207, 177);
+}
